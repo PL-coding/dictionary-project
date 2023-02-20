@@ -9,12 +9,12 @@ export default function Dictionary(props) {
     let [loaded, setLoaded] = useState(false);
 
     function handleResponse(response) {
-        setResults(response.data);
+        setResults(response.data[0]);
     }
 
     function search() {
-      // documentation https://www.shecodes.io/learn/workshops/1096/apis/dictionary
-        let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=0deecee21740t22ba3fb3658doabb96f`
+      // documentation https://dictionaryapi.dev/
+        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`
         axios.get(apiUrl).then(handleResponse);
     }
 
