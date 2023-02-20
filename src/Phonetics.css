@@ -35,5 +35,5 @@
 }
 .rm-audio-player-provider button {
     color: #263d42;
-    padding: 1px 6px;
+    padding: 1px 6px !important;
 }
