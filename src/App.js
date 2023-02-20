@@ -4,9 +4,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-              <h1>dictionary</h1>
-              </header>
+      
       <main className="container">
         <Dictionary defaultKeyword="search"/>
       </main>

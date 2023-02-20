@@ -1,0 +1,12 @@
+.Meanings h4 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.Meanings em {
+    margin: 0 0 0 10px;
+}
+
+.Meanings section {
+    margin-bottom: 15px;
+}

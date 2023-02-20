@@ -1,0 +1,38 @@
+.AudioPlayer {
+    max-width: 30px;
+}
+
+.hqapFy {
+    width: 25px !important;
+}
+
+.interface-grid {
+    background-color: transparent!important;
+}
+
+.Phonetics {
+    border : 1px solid #263d42;
+    border-radius: 25px;
+    height: 43px;
+    margin: 10px 0 !important;
+    max-width: 165px;
+}
+
+
+.PhoneticsNoAudio {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.PhoneticsText {
+    padding: 0 8px;
+    text-align: center;
+}
+
+.rm-audio-player-provider {
+    background-color: transparent !important;
+    max-width: 30px;
+}
+.rm-audio-player-provider button {
+    color: #263d42;
+}

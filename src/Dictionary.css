@@ -1,3 +1,24 @@
+.Header {
+      align-items: center;
+      margin-bottom: 30px;
+   justify-content: center;
+ }
+
 .Dictionary {
     text-align: left;
 }
+
+.Dictionary form {
+    text-align: right;
+}
+
+input {
+    background-color: #f0f1f7;
+    border : 1px solid #263d42;
+    color: #263d42;
+}
+
+.SearchField {
+    border-radius: 5px;
+}
+

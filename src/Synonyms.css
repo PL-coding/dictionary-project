@@ -1,0 +1,9 @@
+.Synonyms {
+    opacity: 0.8;
+}
+
+.Synonyms li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+    }

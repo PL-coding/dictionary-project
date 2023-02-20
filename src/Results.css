@@ -1,0 +1,12 @@
+.SearchWord {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.PrimarySection {
+    width: 735px;
+}
+
+.Results {
+    margin: 0 auto;
+    max-width: 900px;
+}
