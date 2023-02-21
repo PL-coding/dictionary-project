@@ -9,7 +9,7 @@ export default function Results(props) {
             <div className="Results">
             <div className="row PrimarySection">
 
-                <h2 className="SearchWord col my-auto">{props.results.word}</h2>
+                <h1 className="SearchWord col my-auto">{props.results.word}</h1>
                 <div className="col d-inline-flex flex-column">
                 {props.results.phonetics.filter((phonetic) => phonetic.text).map(function(phonetics, index){
                     return(

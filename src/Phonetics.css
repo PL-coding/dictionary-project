@@ -11,7 +11,7 @@
 }
 
 .Phonetics {
-    border : 1px solid #263d42;
+    border : 1px solid var(--main-colour);
     border-radius: 25px;
     height: 43px;
     margin: 10px 0 !important;
@@ -34,6 +34,6 @@
     max-width: 30px;
 }
 .rm-audio-player-provider button {
-    color: #263d42;
+    color: var(--main-colour);
     padding: 1px 6px !important;
 }

@@ -3,10 +3,6 @@
 }
 
 .PrimarySection {
-    width: 735px;
-}
-
-.Results {
     margin: 0 auto;
-    max-width: 900px;
+    width: 735px;
 }

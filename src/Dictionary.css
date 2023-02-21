@@ -1,24 +1,29 @@
 .Header {
       align-items: center;
       margin-bottom: 30px;
-   justify-content: center;
+      justify-content: center;
  }
 
 .Dictionary {
+    margin: 0 auto;
+    max-width: 900px;
     text-align: left;
 }
 
 .Dictionary form {
-    text-align: right;
+    text-align: center;
 }
 
 input {
-    background-color: #f0f1f7;
-    border : 1px solid #263d42;
-    color: #263d42;
+    background-color: var(--bg-colour);
+    border : 1px solid var(--main-colour);
+    color: var(--main-colour);
 }
 
 .SearchField {
     border-radius: 5px;
+    margin-top: 10px;
+    min-width: 350px;
+    padding: 5px;
 }
 

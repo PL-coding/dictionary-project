@@ -17,7 +17,7 @@ export default function Phonetics(props) {
 if (props.phonetics.audio.length > 0 )
     return (
         <div className="Phonetics row">
- <div className="col AudioPlayer">       
+ <div className="col AudioPlayer my-auto">       
          <AudioPlayer
          playList={playList}
         audioInitialState={{

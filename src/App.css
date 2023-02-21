@@ -1,9 +1,14 @@
+:root {
+  --bg-colour: #f0f1f7;
+  --main-colour: #263d42;
+}
+
 body {
-  background-color: #f0f1f7;
+  background-color: var(--bg-colour);
 }
 
 .App {
-  color: #263d42;
+  color: var(--main-colour);
   font-family: 'Gentium Book Basic', serif;
   text-align: center;
 }
