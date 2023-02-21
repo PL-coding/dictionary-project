@@ -13,6 +13,7 @@
 .Phonetics {
     border : 1px solid var(--main-colour);
     border-radius: 25px;
+    font-size: 13px;
     height: 43px;
     margin: 10px auto !important;
     max-width: 165px;
