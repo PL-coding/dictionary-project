@@ -3,6 +3,7 @@
 }
 
 .PrimarySection {
+    text-align: center;
     margin: 0 auto;
-    width: 735px;
+    max-width: 735px;
 }

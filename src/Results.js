@@ -9,8 +9,8 @@ export default function Results(props) {
             <div className="Results">
             <div className="row PrimarySection">
 
-                <h1 className="SearchWord col my-auto">{props.results.word}</h1>
-                <div className="col d-inline-flex flex-column">
+                <h1 className="SearchWord col-sm-6 my-auto">{props.results.word}</h1>
+                <div className="col-sm-6 d-flex flex-sm-column justify-content-around">
                 {props.results.phonetics.filter((phonetic) => phonetic.text).map(function(phonetics, index){
                     return(
                         <div key={index}>
